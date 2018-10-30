@@ -12,6 +12,18 @@ Challenges from [Codewars](https://www.codewars.com), adding [testing with Mocha
 
   - [Other solutions](src/creditCardMask/otherSolutions.md)
 
+### Disemvowel Trolls
+
+  - Code : [disemvowel.js](src/disemvowelTrolls/disemvowel.js)
+
+  - Test: [disemvowel-test.js](tests/disemvowel-test.js)
+
+### Two to One
+
+  - Code : [longest.js](src/twoToOne/longest.js)
+
+  - Test: [longest-test.js](tests/longest-test.js)
+
 ## How to add testing
 
 - Install mocha:
