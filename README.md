@@ -2,6 +2,17 @@
 
 Challenges from [Codewars](https://www.codewars.com), adding [testing with Mocha and Chai](https://www.codementor.io/davidtang/unit-testing-and-tdd-in-node-js-part-1-8t714s877).
 
+## Run tests
+
+```
+npm install
+```
+
+```
+npm run test
+```
+
+
 ## Challenges
 
 ### Credit Card Mask
@@ -26,17 +37,18 @@ Challenges from [Codewars](https://www.codewars.com), adding [testing with Mocha
 
 ## How to add testing
 
-- Install mocha:
-```
-npm install mocha -g
-```
-
 - Create the package.json file:
 ```
 touch package.json
 
 echo {} > package.json
 ```
+
+- Install mocha:
+```
+npm install mocha --save-dev
+```
+
 - Install chai:
 ```
 npm install chai --save-dev
@@ -53,5 +65,5 @@ npm install chai --save-dev
 - Add the test and execute:
 
 ```
-node run test
+npm run test
 ```

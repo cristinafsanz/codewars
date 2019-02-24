@@ -3,6 +3,8 @@
     "test": "mocha tests/*-test.js"
   },
   "devDependencies": {
-    "chai": "^4.2.0"
-  }
+    "chai": "^4.2.0",
+    "mocha": "^6.0.1"
+  },
+  "dependencies": {}
 }
